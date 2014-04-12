@@ -9,7 +9,7 @@ class OpenBabel < Formula
     url 'https://github.com/openbabel/openbabel.git', :branch => 'master'
   end
 
-  option 'without-cairo', 'Build without PNG depiction'
+  option 'with-cairo', 'Build without PNG depiction'
   option 'with-java', 'Build with Java language bindings'
   option 'with-python', 'Build with Python language bindings'
   option 'with-wxmac', 'Build with GUI'
